@@ -1,0 +1,226 @@
+/* navigation bar */
+.nav-item {
+  font-size: 1.2rem;
+  margin: 0.5rem 0.8rem;
+  text-align: center;
+  color: #333 !important;
+}
+.navbar-brand {
+  font-size: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav .active, .nav-link:hover {
+  color: #cfa5db !important;
+}
+.socialicons {
+  margin-left:11px;
+}
+
+/* introduction */
+.introduction {
+  min-height:50rem;
+  background-image: url("images/b2.jpg");
+  background-size: auto 1200px;
+  background-position: right;
+  background-attachment: scroll;
+  padding:5rem 2rem;
+
+}
+.introtext {
+  background-color: #00000180;
+
+  padding:3rem;
+
+}
+
+.introhead {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.introcontent {
+  color: #bbb;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+.anime{
+  font-size: 4rem;
+
+}
+
+/* resizing */
+@media screen and (max-width: 1020px) {
+  .introtext {
+    min-width:100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .introtext {
+    padding:2em;
+  }
+
+  .introhead {
+    font-size: 3.5rem;
+  }
+
+  .introcontent {
+    font-size: 1.1rem;
+  }
+}
+/* end of index */
+
+/* money transfer, money transfer action, transactions */
+.transfer{
+  padding:3rem;
+  background-image: url("Images/b2.jpg");
+  background-size: cover;;
+}
+
+.transferaction {
+  padding: 3rem 6rem;
+  padding-bottom: 2rem;
+  display: block;
+  position: relative;
+}
+
+.transferaction:after {
+  content: "";
+  background-image: url("Images/money.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.table {
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 10px 4px #222;
+}
+
+tr {
+  height: 3.5rem;
+}
+
+.btn-outline-light {
+  font-size: 1rem;
+}
+
+.mtaf {
+  padding:3rem 2rem;
+  padding-bottom: 1rem;
+  background-color:#BECA5C20;
+  box-shadow: 2px 2px 10px 4px #bbb;
+  text-align: center;
+}
+
+.mb-3 {
+  padding-bottom:1rem;
+}
+
+.input-group-text {
+  width:8.5rem;
+}
+
+.form-control {
+  padding:1rem 2rem;
+}
+
+.btn-danger {
+  background-color: #CC561E;
+  border: 1px solid #CC561E;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.btn-danger:hover {
+  background-color: #aC360E;
+  border: 1px solid #aC360E;
+}
+
+.btn-close:focus {
+  box-shadow: 0px 0px 0px 0px #fff !important;
+}
+
+.goback {
+  color: #00000070;
+  text-decoration: none;
+}
+
+.goback:hover {
+  color: #00000099;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-body {
+  text-align: center;
+  padding:1rem 2rem;
+  padding-bottom: 3rem;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.modelbodycontent {
+  line-height: 3;
+  color: #555;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+.fa-times-circle {
+  color: #aC0000;
+}
+
+/* resizing */
+@media screen and (max-width:600px) {
+  .transfer {
+    min-height: 40rem;
+    padding:3rem 1rem;
+  }
+  .table {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .btn-outline-light {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .transferaction {
+    padding: 3rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .modelbodycontent {
+    font-size: 0.9rem;
+    line-height: 2;
+  }
+}
+/* end of money transfer, money transfer action, transactions */
+.footer {
+  border-top: 1px solid #3c3c3c;
+
+}
+.copyright {
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+  font-size:0.8rem;
+  opacity:0.5;
+  text-align: right;
+}
